@@ -1,0 +1,44 @@
+body {
+    background-image: url(2.jpg);
+    background-repeat: repeat-y;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.container {
+    max-width: 500px;
+    font-family: sans-serif;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+form {
+    padding: 10px 50px 45px;
+    background: transparent;
+}
+
+.form-control:focus {
+    border-color: #000;
+    box-shadow: none;
+}
+
+label {
+    font-weight: 600;
+    color: #999;
+}
+.alert {
+    margin-left: 15px;
+    width: 260px;
+    padding: 1px;
+    text-align: center;
+    color: black;
+
+}
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
